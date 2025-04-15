@@ -9,7 +9,7 @@ export default function About() {
     <section className="bg-[#FDF6EC] py-16">
       <div className="container px-4 mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="relative">
+          <div className="relative" data-aos="fade-right">
             <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
               <Image
                 src={about1Img}
@@ -32,7 +32,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="space-y-6 mt-6">
+          <div className="space-y-6 mt-6" data-aos="fade-up-left">
             <h2 className="text-4xl font-bold">SOBRE</h2>
 
             <p>
