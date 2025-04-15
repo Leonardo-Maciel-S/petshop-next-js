@@ -72,7 +72,9 @@ export default function Testimonials() {
 
                           <div className="flex flex-col gap-1 items-center">
                             <p className="font-bold text-xl">{item.author}</p>
-                            <p className="text-sm text-gray-400">{item.role}</p>
+                            <p className="text-sm text-gray-400 text-center">
+                              {item.role}
+                            </p>
                           </div>
                         </div>
                       </div>
